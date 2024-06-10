@@ -1,7 +1,7 @@
 <?php
-    $db = pg_connect("host=dpg-cmmsaiocmk4c73e48bjg-a 
-    port=5432 dbname=cajosh_postgresql user=cajosh_postgresql_user password=jQUNjMIemDRhKpOdHcWhmv6QJix1zH0b");    
-
+    $db = pg_connect("host=dpg-cpj2ac6ct0pc738352ng-a 
+    port=5432 dbname=clubber user=clubber_user password=eNtuIzwSoDf6yjTJeDMGrk3ap8vbwEmJ");
+    
     $userotp=$_POST['userotp'];
 
 if ($_SERVER["REQUEST_METHOD"]=="POST"){
